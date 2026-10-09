@@ -15,10 +15,10 @@ def calculate(operation, a, b):
         if b == 0:
             return 'Cannot divide by zero.'
         return a % b
-    elif operation == 'floor_divide':
-        if b == 0:
-            return 'Cannot divide by zero.'
-        return a // b
+    # elif operation == 'floor_divide':
+    #     if b == 0:
+    #         return 'Cannot divide by zero.'
+    #     return a // b
     else:
         return "Error: Unsupported operation"
 
